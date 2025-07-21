@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.apresentacao__conteudo__texto {
+    font-family: "Noto Sans", sans-serif;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+.apresentacao__conteudo__texto {
+    margin-bottom: 1em;
+    padding: 0;
+    height: 210px;
+    width: 624px;
+}
+.apresentacao__conteudo__titulo{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    height: 7px;
+    width: 801px;
+}
+.apresentacao__conteudo__imagem {
+    height: 657px;
+    width: 508px;
+}
+.apresentacao__conteudo__links {
+    background-color: white;
+    text-decoration: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 234px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.apresentacao__conteudo__links__link {
+    color: white;
+}
+
+.apresentacao__conteudo__links__link {
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    text-align: center;
+}
+.apresentacao__conteudo__links__link:hover {
+    background-color: #333333;
+}
